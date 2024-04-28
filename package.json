@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/three": "^0.163.0",
     "antd": "5.16.1",
-    "mobx": "6.12.3",
-    "mobx-react-lite": "4.0.7",
     "pixi.js": "8.0.5",
     "preact": "10.19.6",
-    "tailwindcss": "3.4.3"
+    "tailwindcss": "3.4.3",
+    "three": "^0.163.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "7.24.1",
