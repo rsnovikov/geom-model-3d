@@ -8,7 +8,7 @@ class LayoutModel {
   public a: number = 1.5;
   public b: number = 2.2;
   public polygons: number = 40;
-  public size: number = 10;
+  public size: number = 5;
   public isFill: boolean = false;
   constructor() {}
 
@@ -20,7 +20,7 @@ class LayoutModel {
     parent.appendChild(this.renderer.domElement);
 
     let light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.setScalar(1);
+    // light.position.setScalar(1);
     this.scene.add(light, new THREE.AmbientLight(0xffffff, 0.5));
 
     let camera = new THREE.PerspectiveCamera(
